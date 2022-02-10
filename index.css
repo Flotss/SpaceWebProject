@@ -1,0 +1,193 @@
+
+@media screen and (max-width: 3800px) and (max-height: 2160px){
+    body{
+        background-image: url("image/background_espace.jpg");
+        background-attachment: fixed;
+    }
+}
+
+body{
+    display: block;
+    background-color: #0D1E47;
+
+    color: white;
+
+    margin:0;
+
+    font-family: sans-serif;
+    font-size: 1vw;
+}
+
+h1{
+    text-align: center;
+}
+
+.header{
+    display:  block;
+    vertical-align: top;
+    position: fixed;
+    top: 0;
+
+    width: 98%;
+
+    margin: 0;
+    padding: 0 1% 1%;
+
+    border-bottom-left-radius: 4em;
+    border-bottom-right-radius: 4em;
+
+    background-color: #151515;
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+
+    min-width: 25%;
+    max-width: 85%;
+
+
+    margin: 10em 6% 5%;
+    padding: 1%;
+    background-color: black;
+
+    border-radius: 1em ;
+    border: white 0.1em solid;
+
+}
+
+section {
+    display: flex;
+
+    height: 30em;
+    background-color:black;
+    color: white;
+    padding: 1em;
+    margin: 2em 1em 1em;
+    border-radius: 2em;
+    border: white 0.5em solid;
+    overflow: hidden;
+}
+
+article{
+    display: block;
+    width: 50em;
+    padding-right: 1em;
+    margin-right: 1em;
+    border-right: white 0.1em ridge;
+}
+.container > section > aside > a{
+    display: inline-block;
+    border-radius: 1em;
+    border: white 0.3vw solid;
+    color: white;
+    padding: 0.3em;
+    width: 8em;
+    align-self: center;
+    font-size: 1em;
+}
+
+a{
+    text-decoration:none;
+    color : white;
+}
+
+a:hover{
+    text-shadow: white 1px 0 10px;
+}
+header nav ul li a:hover{
+    text-shadow: white 1px 0 10px;
+    background-color: darkslateblue;
+}
+
+header > nav > ul{
+    justify-content: space-between;
+    display: flex;
+
+    padding-left : 0;
+    margin: 0 10em;
+}
+
+
+
+header > nav > ul > li{
+    display: block;
+    text-align: center;
+    width: 15em;
+
+}
+
+
+
+li > a {
+    display: block;
+    color: white;
+    border: #0D1E47 0.3vw solid ;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+
+aside{
+    font-size: 1.2em;
+}
+
+
+img{
+    display: inline-block;
+    width: 50em;
+}
+
+footer {
+    background-color: #202020 ;
+    padding: 2vw;
+    color: white;
+    display: flex;
+
+}
+
+footer > .information > ul{
+    justify-content:right ;
+    flex-direction: column;
+
+}
+
+.information {
+    border : #252525 0.2em solid;
+    margin-right: 6em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+footer > li {
+    background-color: #202020;
+    padding: 1em;
+}
+
+footer > img {
+    width: 10vw;
+}
+
+footer > p {
+    width: 50vw;
+}
+
+.information p a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container .Schema aside img{
+    height: 40vw;
+    width: 30vw;
+}
+
+.container .Schema aside .fichier{
+    width: 70vw;
+}
+
+.container .Schema aside h4{
+    margin-top: 4em;
+}

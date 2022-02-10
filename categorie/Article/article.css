@@ -1,0 +1,13 @@
+.container p {
+    line-height:30px;
+}
+
+img{
+    align-self: center;
+    width: 10em;
+}
+
+#image1{
+    height: 30em;
+    width: 35em;
+}
